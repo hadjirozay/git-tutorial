@@ -1,2 +1,2 @@
 My first readme
-# first readme for git tutorial
+first readme for git tutorial
