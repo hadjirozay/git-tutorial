@@ -1,0 +1,15 @@
+#!bin/bash
+# shell prompt tutor
+echo "Shell Prompt
+The prompt, $, which is called the command prompt, is issued by the shell. While the prompt is displayed, you can type a command.
+
+Shell reads your input after you press Enter. It determines the command you want executed by looking at the first word of your input. A word is an unbroken set of characters. Spaces and tabs separate words.
+
+Shell Scripts
+The basic concept of a shell script is a list of commands, which are listed in the order of execution. A good shell script will have comments, preceded by # sign, describing the steps.
+
+There are conditional tests, such as value A is greater than value B, loops allowing us to go through massive amounts of data, files to read and store data, and variables to read and store data, and the script may include functions.
+
+We are going to write many scripts in the next sections. It would be a simple text file in which we would put all our commands and several other required constructs that tell the shell environment what to do and when to do it.
+
+Shell scripts and functions are both interpreted. This means they are not compiled."
