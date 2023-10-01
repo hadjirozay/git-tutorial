@@ -1,0 +1,15 @@
+#!bin/bash
+# chgrp command
+echo "The `chgrp` command in Linux is used to change the group ownership of a file or directory. All files in Linux belong to an owner and a group. You can set the owner by using “chown” command, and the group by the “chgrp” command.
+
+Syntax of `chgrp` command in Linux
+chgrp [OPTION]… GROUP FILE…
+chgrp [OPTION]… –reference=RFILE FILE…
+Note First we need to have administrator permission to add or delete groups. We can login as root for this purpose or use sudo. In order to add a new group, we can use:
+
+sudo addgroup geeksforgeeks
+Examples of `chgrp` command in Linux
+Changing Group Ownership of a Single File
+To change the group ownership of a file.
+
+sudo chgrp geeksforgeeks abc.txt"

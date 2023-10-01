@@ -1,0 +1,10 @@
+#!bin/bash
+#v adduser command
+echo " adduser command in Linux is used to add a new user to your current Linux machine. This command allows you to modify the configurations of the user which is to be created. It is similar to the useradd command in Linux. The adduser command is much interactive as compared to useradd command.
+
+Installing adduser command
+To install adduser tool use the following commands as per your Linux distribution.
+
+In case of Debian/Ubuntu
+
+$sudo apt-get install adduser "

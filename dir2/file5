@@ -1,0 +1,13 @@
+#!/bin/bash
+# chown command
+echo "Different users in the operating system have ownership and permission to ensure that the files are secure and put restrictions on who can modify the contents of the files. In Linux, there are different users who use the system:  
+
+Root User: It is a superuser who has access to all the directories and files in our system and it can perform any operation. An important thing to note is that only the root user can perform changing of permissions or ownerships of the files that are not owned by them.
+Regular User: These users have limited access to files and directories and can only modify the file that they own.
+Each user has some properties associated with them, such as a user ID and a home directory. We can add users to a group to make the process of managing users easier. A group can have zero or more users. A specified user can be associated with a “default group”. It can also be a member of other groups on the system as well.
+
+Ownership and Permissions: To protect and secure files and directories in Linux we use permissions to control what a user can do with a file or directory. Linux uses three types of permissions:  
+
+Read: This permission allows the user to read files in directories, it lets the user read directories and subdirectories stored in it.
+Write: This permission allows a user to modify and delete a file. Also, it allows a user to modify its contents (create, delete, and rename files in it) for the directories. Unless the execution permission is given to directories changes do affect them.
+Execute: This permission on a file allows it to get executed. For example, if we have a file named php.sh so unless we don’t give it execute permission it won't run."
